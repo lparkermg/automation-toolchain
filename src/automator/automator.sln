@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "automator", "automator/automator.csproj", "{BFC93442-9D32-4B9D-8216-77AE01C243A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules", "Modules\Modules.csproj", "{C216667A-F2A2-48E8-BF4B-95635690C2C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC93442-9D32-4B9D-8216-77AE01C243A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC93442-9D32-4B9D-8216-77AE01C243A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC93442-9D32-4B9D-8216-77AE01C243A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC93442-9D32-4B9D-8216-77AE01C243A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C216667A-F2A2-48E8-BF4B-95635690C2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C216667A-F2A2-48E8-BF4B-95635690C2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C216667A-F2A2-48E8-BF4B-95635690C2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C216667A-F2A2-48E8-BF4B-95635690C2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
