@@ -7,7 +7,7 @@ namespace Modules
     public class UnityBuilder : IAutoModule
     {
         private readonly string _macOsUnityPath = "/Applications/Unity/Unity.app/Contents/MacOS/Unity";
-        private readonly string _windowsUnityPath = "";
+        private readonly string _windowsUnityPath = "C:\\Program Files\\Unity\\Editor\\Unity.exe";
         
         public bool Run<T>(T[] data)
         {

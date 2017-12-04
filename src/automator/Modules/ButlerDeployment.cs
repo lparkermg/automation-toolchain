@@ -6,6 +6,7 @@ namespace Modules
     public class ButlerDeployment: IAutoModule
     {
         private readonly string _macOsButlerPath = "";
+        private readonly string _windowsButlerPath = "%APPDATA%\\itch\\bin\\butler.exe";
         
         public bool Run<T>(T[] data)
         {
